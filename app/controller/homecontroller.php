@@ -2,9 +2,7 @@
 
 namespace App\Controller;
 
-use App\Core\Controller;
-
-class HomeController extends Controller
+class HomeController
 {
     public function test(): string
     {

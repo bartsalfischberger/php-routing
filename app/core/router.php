@@ -158,4 +158,15 @@ class Router
 
         return $variables;
     }
+
+    /**
+     * End of routing.
+     *
+     * @return void
+     */
+    static function destruct() {
+
+        // Promt 404 page.
+        if (!in_array(self::$uri, self::$routes)) View::make("err/404");
+    }
 }

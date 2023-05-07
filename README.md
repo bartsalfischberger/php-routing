@@ -1,12 +1,12 @@
 # Basic PHP Routing
 
-A basic PHP router I made for small school projects. Everything should work with PHP version 8.
+A basic PHP router I made for small personal projects. Everything should work with PHP version 8.
 
 ## Setting up
 
 1. Send all non-static asset requests to the index.php file, this is the starting point of the framework.
 2. Make sure a user can't reach any PHP files in the app folder.
-3. Test the application by starting your web server and visiting the site, it should show "Hello, world!" page.
+3. Test the application by starting your web server and visiting the site, it should show the "Hello, world!" ( `app/view/hello.view.php` ) page.
 
 ## Routing
 

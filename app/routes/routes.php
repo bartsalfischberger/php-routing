@@ -13,9 +13,3 @@ Router::get('/profile/{id}', 'profile');
 
 // Route with controller.
 Router::get('/hello', [HomeController::class, 'show']);
-
-// If no route if found.
-Router::abort(function() {
-    http_response_code(404);
-    echo "Page not found";
-});
